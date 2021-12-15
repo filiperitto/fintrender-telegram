@@ -1,4 +1,17 @@
 .moduleHero.obrigado{
+
+    &.obrigado2{
+        .col100{
+            @include respond-to-min(800){
+                padding: 50px 0 140px !important;
+            }
+            h1{
+                @include respond-to-min(800){
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
     .col100{
             padding: 20px 0 95px;
         @include respond-to-min(800){

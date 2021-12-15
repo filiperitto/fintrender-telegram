@@ -1535,6 +1535,18 @@ footer .copy-box ul li a {
   font-family: "DM Sans", sans-serif;
 }
 
+@media only screen and (min-width: 800px) {
+  .moduleHero.obrigado.obrigado2 .col100 {
+    padding: 50px 0 140px !important;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .moduleHero.obrigado.obrigado2 .col100 h1 {
+    margin-bottom: 25px;
+  }
+}
+
 .moduleHero.obrigado .col100 {
   padding: 20px 0 95px;
 }
