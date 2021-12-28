@@ -15,7 +15,7 @@
     .col100{
             padding: 20px 0 95px;
         @include respond-to-min(800){
-            padding: 5px 0 140px;
+            padding: 5px 0 100px;
         }
         h1{
             font-family: $font-montserrat;
@@ -88,6 +88,7 @@
             position: relative;
             width: fit-content;
             margin: auto;
+            margin-top: 50px;
             .esquerda{
                 position: absolute;
                 top: 0;
